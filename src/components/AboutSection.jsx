@@ -16,7 +16,6 @@ export default function AboutSection() {
     <section className="about-section" id="sobre" ref={containerRef}>
 
       {/* 1. BACKGROUND LAYER (1C7A8525) */}
-      <div className="about-bg-layer"></div>
 
       {/* 2. TEXT CONTENT (Kept from previous, positioned relative to be visible) */}
       <div className="container about-text-container">
@@ -36,23 +35,14 @@ export default function AboutSection() {
           </p>
         </div>
       </div>
+      
 
-      {/* 3. DANCERS GROUP (Group 1707478142) */}
-      <div className="dancers-container">
-        <img src={dancersGroup} alt="Carnaval Dancers" className="dancers-img" />
-      </div>
-
-      {/* 4. TAPE FOOTER (Frame 47) */}
-      <div className="tape-footer-container">
-        <img src={tapeFrame} alt="Movimento Sticker Tape" className="tape-img" />
-      </div>
 
       <style jsx="true">{`
         .about-section {
           position: relative;
           width: 100%;
           /* Min height to accommodate the large elements */
-          min-height: 1200px; 
           overflow: visible; /* Changed to visible so tape isn't cut off */
           background-color: #0C132D; /* Fallback */
           padding-top: 100px;
