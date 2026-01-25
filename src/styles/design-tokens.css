@@ -1,0 +1,48 @@
+:root {
+  /* Colors - Extracted from User CSS */
+  --color-background: #0C132D;
+  /* Deep Blue from CSS */
+
+  --color-primary: #FF7527;
+  /* Orange from CSS */
+  --color-secondary: #E3E339;
+  /* Yellow from CSS */
+  --color-accent: #FF6871;
+  /* Pink from CSS */
+
+  /* Tape Specifics */
+  --tape-yellow: #E3E339;
+  --tape-pink: #FF6871;
+  --tape-orange: #FF7527;
+
+  --color-text-main: #ffffff;
+  --color-text-muted: #d0d0d0;
+
+  /* Typography */
+  --font-display: 'Impact', 'Oswald', sans-serif;
+  /* Added Impact per CSS */
+  --font-body: 'Azo Sans', 'Inter', sans-serif;
+  /* Added Azo Sans preference */
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 5rem;
+
+  /* Shapes */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Effects */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-strong: 0 10px 30px rgba(0, 0, 0, 0.5);
+
+  /* Layout */
+  --rotation-tape: -2.58deg;
+  /* Exact rotation from CSS */
+}
