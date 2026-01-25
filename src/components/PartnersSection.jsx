@@ -163,7 +163,6 @@ export default function PartnersSection() {
         /* --- Responsive --- */
         @media (max-width: 900px) {
           .partners-grid {
-            grid-template-columns: repeat(3, 1fr);
             gap: 20px;
           }
         }
@@ -187,7 +186,6 @@ export default function PartnersSection() {
           }
 
           .partners-grid {
-            grid-template-columns: repeat(2, 1fr);
             gap: 15px;
           }
 
@@ -207,8 +205,7 @@ export default function PartnersSection() {
 
         @media (max-width: 480px) {
           .partners-grid {
-            grid-template-columns: 1fr;
-            max-width: 300px;
+            gap: 15px;
           }
 
           .section-title {

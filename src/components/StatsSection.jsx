@@ -219,6 +219,7 @@ export default function StatsSection() {
           gap: 25px;
           max-width: 1190px;
           margin: 0 auto;
+          padding: 0 1rem;
         }
 
         .info-item {
