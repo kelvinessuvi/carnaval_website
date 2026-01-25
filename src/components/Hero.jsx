@@ -37,18 +37,18 @@ export default function Hero() {
 
       {/* --- RESPONSIVE HEADER --- */}
       <header className="hero-header hero-container">
-        {/* Logo Area - Main Only */}
-        <div className="logo-area">
+        {/* Logo Area - Main Only - Hidden when menu open */}
+        <div className={`logo-area ${mobileMenuOpen ? 'opacity-0' : ''}`}>
           <img src={logoImg} alt="Carnaval Logo" className="logo-main" />
         </div>
 
-        {/* Desktop Nav */}
-        <nav className="desktop-nav">
-          <a href="#sobre" className="nav-link">SOBRE</a>
-          <a href="#parceiros" className="nav-link">PARCEIROS</a>
-          <a href="#participar" className="nav-link">COMO PARTICIPAR</a>
-          <a href="#faq" className="nav-link">PERGUNTAS FREQUENTES</a>
-        </nav>
+        {/* Mobile Menu Toggle - Centered on Mobile */}
+        <button
+          className="mobile-menu-btn"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+        >
+          {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+        </button>
 
         {/* Right Side: CTA + Secondary Logo */}
         <div className="header-right-area">
@@ -57,16 +57,13 @@ export default function Hero() {
             RESERVE JÁ O SEU KIT
           </a>
 
-          {/* Secondary Logo (Option 1: Right of Button) - Second */}
-          <img src={logoCanjala} alt="Canjala Logo" className="logo-partner-right desktop-only" style={{ height: '150px', width: 'auto' }} />
-
-          {/* Mobile Menu Toggle */}
-          <button
-            className="mobile-menu-btn"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          >
-            {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
-          </button>
+          {/* Secondary Logo - Desktop: Always visible. Mobile: Right side, hidden when menu open */}
+          <img
+            src={logoCanjala}
+            alt="Canjala Logo"
+            className={`logo-partner-right ${mobileMenuOpen ? 'mobile-hidden' : ''}`}
+            style={{ height: '90px', width: 'auto' }}
+          />
         </div>
       </header>
 
@@ -180,9 +177,9 @@ export default function Hero() {
 
         /* --- HEADER --- */
         .hero-header {
-          display: flex;
+          display: grid;
+          grid-template-columns: 1fr auto 1fr;
           align-items: center;
-          justify-content: space-between;
           padding: 20px;
           width: 100%;
           position: relative;
@@ -190,26 +187,40 @@ export default function Hero() {
         }
 
         .logo-area {
-          /* Just main logo now */
-          flex-shrink: 0;
+          justify-self: start;
+          transition: opacity 0.3s ease;
+        }
+        .logo-area.opacity-0 { opacity: 0; pointer-events: none; }
+
+        .logo-main { width: 100px; height: auto; }
+        
+        .desktop-nav { display: none; }
+        
+        /* Center Button */
+        .mobile-menu-btn { 
+          justify-self: center;
+          background: transparent; border: none; color: white; cursor: pointer; z-index: 60; 
         }
 
-        .logo-main { width: 120px; height: auto; }
-        
-        .desktop-nav { display: none; gap: 30px; }
-        
-        /* New Right Side Container */
+        /* Right Side Container */
         .header-right-area {
+          justify-self: end;
           display: flex;
           align-items: center;
           gap: 2rem;
         }
         
         .logo-partner-right {
-          height: 90px; /* Increased size as requested */
+          height: 60px !important; /* Mobile size */
           width: auto;
           object-fit: contain;
+          transition: opacity 0.3s ease;
         }
+        .logo-partner-right.mobile-hidden { opacity: 0; pointer-events: none; }
+        /* Remove desktop-only class restriction if it exists solely in css, but here we used it in JSX. 
+           In JSX we removed 'desktop-only' from the image tag, so we are good. 
+           Wait, previous code had 'desktop-only' class on img. 
+           I removed it in JSX replacer. */
 
         .nav-link {
           font-family: 'Azo Sans', sans-serif;
@@ -230,25 +241,30 @@ export default function Hero() {
           cursor: pointer;
           white-space: nowrap;
         }
-        .mobile-menu-btn { display: block; background: transparent; border: none; color: white; cursor: pointer; z-index: 50; }
 
-        /* Tablet: Keep standard padding (user preference) */
+        /* Tablet: Keep Grid or switch to Flex? Grid is fine. */
         @media (min-width: 768px) {
-           /* No aggressive shifts on tablet */
+           .logo-main { width: 120px; }
+           .logo-partner-right { height: 80px !important; }
         }
 
-        /* Desktop: Full Nav, Larger Decos, Indented Header for Curve */
+        /* Desktop: Full Nav, Switch back to Flex for standard layout */
         @media (min-width: 1024px) {
            .hero-header {
+             display: flex;
+             justify-content: space-between;
              padding-left: 140px; /* Indent for sticker */
              padding-right: 50px;
            }
            
-           .desktop-nav { display: flex; }
+           .desktop-nav { display: flex; gap: 30px; }
            .header-cta.desktop-only { display: block; }
-           .logo-partner-right.desktop-only { display: block; }
+           
+           /* On Desktop, menu btn is hidden, so center area is gone or ignored */
            .mobile-menu-btn { display: none; }
+           
            .logo-area img { width: 140px; }
+           .logo-partner-right { height: 90px !important; }
            
            /* Decoration Sizing & Visibility */
            .top-left-curve { display: block; width: 130px; }
