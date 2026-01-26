@@ -42,6 +42,14 @@ export default function Hero() {
           <img src={logoImg} alt="Carnaval Logo" className="logo-main" />
         </div>
 
+        {/* Desktop Nav */}
+        <nav className="desktop-nav">
+          <a href="#sobre" className="nav-link">SOBRE</a>
+          <a href="#parceiros" className="nav-link">PARCEIROS</a>
+          <a href="#participar" className="nav-link">COMO PARTICIPAR</a>
+          <a href="#faq" className="nav-link">PERGUNTAS FREQUENTES</a>
+        </nav>
+
         {/* Mobile Menu Toggle - Centered on Mobile */}
         <button
           className="mobile-menu-btn"
