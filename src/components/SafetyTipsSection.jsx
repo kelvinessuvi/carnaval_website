@@ -94,7 +94,7 @@ export default function SafetyTipsSection() {
               <img src={carnivalImage1} alt="Carnaval" className="carnival-img" />
             </div>
             <div className="lightning-decoration">
-              <svg width="55" height="90" viewBox="0 0 55 90" fill="#E3E339">
+              <svg width="55" height="90" viewBox="0 0 55 90" fill="#F3DA17">
                 <path d="M27 0L14 50H33L20 90L47 34H27L38 0Z" />
               </svg>
             </div>
@@ -126,7 +126,7 @@ export default function SafetyTipsSection() {
               <li>Calçado: Sapatos confortáveis para caminhar</li>
               <li>Hidratação: Traga água e mantenha-se hidratado</li>
               <li>Proteção Solar: Protetor solar e chapéu são recomendados</li>
-              <li>Documentação: Leve o seu comprovativo de reserva/kit</li>
+              <li>Documentação: Leve o teu comprovativo de reserva/kit</li>
             </ul>
           </div>
 
@@ -265,15 +265,23 @@ export default function SafetyTipsSection() {
         }
 
         .frame-yellow-cyan {
-          background: linear-gradient(135deg, #E3E339 0%, #00CCD6 100%);
+          background: linear-gradient(135deg, #F3DA17 0%, #00CCD6 100%);
         }
 
         .frame-cyan-yellow {
-          background: linear-gradient(135deg, #00CCD6 0%, #E3E339 100%);
+          background: linear-gradient(135deg, #00CCD6 0%, #F3DA17 100%);
         }
 
         .frame-yellow {
-          background: linear-gradient(135deg, #E3E339 0%, #FFD700 100%);
+          background: linear-gradient(135deg, #F3DA17 0%, #F3DA17 100%);
+        }
+
+        .card-green .safety-card-icon {
+          background: linear-gradient(135deg, #00CCD6 0%, #F3DA17 100%);
+        }
+
+        .card-orange .safety-card-icon {
+          background: linear-gradient(135deg, #F3DA17 0%, #F3DA17 100%);
         }
 
         .carnival-img {

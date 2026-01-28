@@ -36,7 +36,7 @@ export default function FAQSection() {
     },
     {
       question: "Posso participar sem reserva?",
-      answer: "Não recomendamos. O acesso é controlado e limitado. É essencial fazer a reserva antecipada para garantir o seu lugar."
+      answer: "Não recomendamos. O acesso é controlado e limitado. É essencial fazer a reserva antecipada para garantir o teu lugar."
     },
     {
       question: "Há limite de idade para participar?",
@@ -63,14 +63,14 @@ export default function FAQSection() {
       <div className="decoration circle-icon-left">
         <svg width="90" height="90" viewBox="0 0 90 90" fill="none">
           <circle cx="45" cy="45" r="40" fill="#FF6B35" stroke="#FF6B35" strokeWidth="2" />
-          <path d="M45 20L35 50H50L40 80L60 45H45L55 20Z" fill="#E3E339" />
+          <path d="M45 20L35 50H50L40 80L60 45H45L55 20Z" fill="#F3DA17" />
         </svg>
       </div>
 
       <div className="decoration circle-icon-right">
         <svg width="90" height="90" viewBox="0 0 90 90" fill="none">
           <circle cx="45" cy="45" r="40" fill="#FF6B35" stroke="#FF6B35" strokeWidth="2" />
-          <path d="M45 20L35 50H50L40 80L60 45H45L55 20Z" fill="#E3E339" />
+          <path d="M45 20L35 50H50L40 80L60 45H45L55 20Z" fill="#F3DA17" />
         </svg>
       </div>
 

@@ -4,21 +4,8 @@ import { ArrowRight, Phone } from 'lucide-react';
 
 export default function ParticipationSection() {
   const participationOptions = [
-    {
-      number: "1",
-      title: "Dançar no Desfile",
-      description: "Ser é divertido, vibrante, festivio do Bonfilio de um dia gruplo, é seu lugar este garantia no desfile. Venha com todo a energia e criativade!"
-    },
-    {
-      number: "2",
-      title: "Participar em Grupo",
-      description: "Organize um grupo de amigos, familia ou colegas de trabalho e venha viverem a alegria do Carnaval em conjunto. Unidos, iatedopodo juntos, fazeredo festejo junto!"
-    },
-    {
-      number: "3",
-      title: "Participar Individualmente",
-      description: "Quer só assistir bem pertinho? Reserve o seu kit individual e junte-se à multidão. A festa é para todos!"
-    }
+
+
   ];
 
   return (
@@ -130,7 +117,7 @@ export default function ParticipationSection() {
           >
             <h4 className="card-title">Via UZEKA (Plataforma de Ticketing)</h4>
             <p className="card-description">
-              Aceda à plataforma UZEKA, procure o evento "Carnaval do Show do Mês", escolha a categoria de participação e complete o seu reserva online.
+              Aceda à plataforma UZEKA, procure o evento "Carnaval do Show do Mês", escolha a categoria de participação e complete o teu reserva online.
             </p>
           </motion.div>
 
@@ -161,7 +148,7 @@ export default function ParticipationSection() {
           transition={{ delay: 0.6 }}
         >
           <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="cta-button">
-            RESERVE JÁ O SEU KIT
+            RESERVE JÁ O TEU KIT
             <ArrowRight size={24} className="arrow-icon" />
           </a>
         </motion.div>
@@ -170,7 +157,8 @@ export default function ParticipationSection() {
       <style jsx="true">{`
         .participation-section {
           background-color: #0C132D;
-          padding: 100px 0;
+          padding-top: 40px;
+          padding-bottom: 100px;
           position: relative;
           overflow: hidden;
         }
@@ -324,31 +312,30 @@ export default function ParticipationSection() {
         }
 
         .cta-button {
-          background-color: #E3E339;
+          background-color: #F3DA17;
           color: #0C132D;
+          border-radius: 9999px;
+          padding: 12px 28px;
           font-family: 'Impact', sans-serif;
-          font-size: 1.3rem;
-          text-transform: uppercase;
-          padding: 18px 50px;
-          border: none;
-          border-radius: 50px;
+          font-size: 1.1rem;
           cursor: pointer;
-          display: flex;
-          align-items: center;
-          gap: 15px;
           transition: all 0.3s ease;
-          box-shadow: 0 5px 20px rgba(227, 227, 57, 0.4);
+          border: none;
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          margin-top: 2rem;
         }
 
         .cta-button:hover {
-          background-color: #F5F533;
-          transform: scale(1.05);
-          box-shadow: 0 8px 30px rgba(227, 227, 57, 0.6);
+          transform: translateY(-3px);
+          box-shadow: 0 5px 15px rgba(243, 218, 23, 0.4);
+          background-color: #F3DA17;
         }
 
         .arrow-icon {
           background-color: #0C132D;
-          color: #E3E339;
+          color: #F3DA17;
           border-radius: 50%;
           padding: 4px;
         }

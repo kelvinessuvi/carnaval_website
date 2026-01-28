@@ -19,12 +19,12 @@ export default function CarnivalGroupsSection() {
           transition={{ duration: 0.6 }}
         >
           <div className="group-image-wrapper">
-            <img src={kilAmbaImage} alt="União Recreativo do Kilamba" className="group-image" />
+            <img src={kilAmbaImage} alt="União Recreativo Kilamba" className="group-image" />
           </div>
           <div className="group-content">
-            <h2 className="group-title">UNIÃO RECREATIVO DO KILAMBA</h2>
+            <h2 className="group-title">UNIÃO RECREATIVO KILAMBA</h2>
             <p className="group-description">
-              Um dos maiores grupos do nosso carnaval, trazendo décadas de tradição, criatividade e energia para as ruas de Luanda. A UNIÃO RECREATIVO DO KILAMBA é sinônimo de qualidade, inovação e paixão pelo Carnaval angolano.
+              Um dos maiores grupos do nosso carnaval, trazendo décadas de tradição, criatividade e energia para as ruas de Luanda. A UNIÃO RECREATIVO KILAMBA é sinônimo de qualidade, inovação e paixão pelo Carnaval angolano.
             </p>
             <div className="group-features">
               <h3 className="features-title">Características</h3>

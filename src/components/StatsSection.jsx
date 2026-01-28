@@ -20,7 +20,7 @@ export default function StatsSection() {
     },
     {
       label: "GRUPOS PRINCIPAIS",
-      text: "UNIÃO RECREATIVO DO KILAMBA, UNIÃO MUNDO DA ILHA",
+      text: "UNIÃO RECREATIVO KILAMBA, UNIÃO MUNDO DA ILHA",
       colorClass: "border-orange-500 text-orange-500",
       borderColor: "#F77F00"
     },
@@ -64,10 +64,10 @@ export default function StatsSection() {
           </h2>
         </div>
 
-        {/* Stats Cards Row */}
+        {/* Stats Cards Row 
         <div className="stats-cards-row">
 
-          {/* Card 1 */}
+          {/* Card 1 
           <div className="stat-card orange-card">
             <div className="pill-top orange-pill">
               <span className="pill-val">+ DE 30 MIL</span>
@@ -77,12 +77,12 @@ export default function StatsSection() {
             </div>
           </div>
 
-          {/* Center Logo */}
+          {/* Center Logo 
           <div className="center-logo">
             <img src={mainLogo} alt="Carnaval Logo" />
           </div>
 
-          {/* Card 2 */}
+          {/* Card 2 
           <div className="stat-card pink-card">
             <div className="pill-top white-pill">
               <span className="pill-val text-dark">+ DE 20</span>
@@ -115,8 +115,9 @@ export default function StatsSection() {
         .stats-section {
           position: relative;
           background-color: #0C132D;
-          min-height: 900px;
-          padding: 80px 20px;
+          padding-top: 80px;
+          padding-bottom: 20px;
+          padding-inline: 20px;
           overflow: hidden;
           font-family: 'Azo Sans', sans-serif;
         }
@@ -151,7 +152,7 @@ export default function StatsSection() {
           text-transform: uppercase;
           letter-spacing: 1px;
         }
-        .text-yellow { color: #E3E339; }
+        .text-yellow { color: #F3DA17; }
         .text-orange { color: #F26522; }
 
         /* Stats Cards */
@@ -203,7 +204,7 @@ export default function StatsSection() {
 
         /* Colors */
         .orange-pill { background-color: #F26522; color: #000; }
-        .yellow-pill { background-color: #E3E339; color: #000; }
+        .yellow-pill { background-color: #F3DA17; color: #000; }
         .white-pill { background-color: #FFFFFF; color: #000; }
         .pink-pill { background-color: #D63384; color: #fff; }
         .text-dark { color: #000; }

@@ -101,7 +101,7 @@ export default function PartnersSection() {
         .section-title {
           font-family: 'Impact', sans-serif;
           font-size: clamp(2.2rem, 4.5vw, 3.5rem);
-          color: #E3E339;
+          color: #F3DA17;
           text-transform: uppercase;
           margin-bottom: 0.8rem;
           letter-spacing: 1px;

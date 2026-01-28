@@ -9,7 +9,7 @@ export default function ParticipationDetails() {
           <div className="text-content">
             <h2 className="section-title">OPÇÃO 1: <span className="highlight">INDIVIDUAL</span></h2>
             <p className="description">
-              Seja o protagonista da sua própria festa! Junte-se ao desfile e sinta a energia
+              Seja o protagonista da sua própria festa! Junta-se ao desfile e sinta a energia
               vibrante do Carnaval de Luanda.
             </p>
             <ul className="perks-list">
@@ -59,7 +59,7 @@ export default function ParticipationDetails() {
             <div className="image-placeholder bleacher-img">VISTA DA BANCADA</div>
           </div>
           <p className="description center-text">
-            Prefere assistir com conforto? Garanta o seu lugar na nossa bancada VIP com vista privilegiada para o desfile.
+            Prefere assistir com conforto? Garanta o teu lugar na nossa bancada VIP com vista privilegiada para o desfile.
           </p>
           <div className="center-btn">
             <button className="action-btn yellow-btn">RESERVAR LUGAR</button>

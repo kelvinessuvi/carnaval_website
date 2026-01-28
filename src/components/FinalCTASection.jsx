@@ -45,7 +45,7 @@ export default function FinalCTASection() {
           </p>
 
           <p className="cta-text">
-            Este 7 de Fevereiro, saia do sofá. Traga a sua família. Traga os seus amigos. Traga a sua energia. Porque o Carnaval do Show do Mês é de Angolanos para Angolanos, e o seu lugar está na rua.
+            Este 7 de Fevereiro, saia do sofá. Traga a sua família. Traga os teus amigos. Traga a sua energia. Porque o Carnaval do Show do Mês é de Angolanos para Angolanos, e o teu lugar está na rua.
           </p>
 
           <p className="final-message">
@@ -79,7 +79,7 @@ export default function FinalCTASection() {
           >
             <img src={uzekaLogo} alt="UZEKA" className="uzeka-logo" />
             <p className="card-subtitle">RESERVE NA UZEKA</p>
-            <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="uzeka-button">RESERVE JÁ O SEU TIKET</a>
+            <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="uzeka-button">RESERVE JÁ O TEU TICKET</a>
           </motion.div>
 
           {/* Social Media Card */}

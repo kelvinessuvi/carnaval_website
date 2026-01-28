@@ -27,8 +27,8 @@ export default function ScheduleSection() {
       {/* Decorative Elements */}
       <div className="decoration circles-left">
         <svg width="150" height="150" viewBox="0 0 150 150" fill="none">
-          <circle cx="75" cy="75" r="70" stroke="#E3E339" strokeWidth="6" fill="none"/>
-          <circle cx="75" cy="75" r="50" stroke="#E3E339" strokeWidth="6" fill="none"/>
+          <circle cx="75" cy="75" r="70" stroke="#E3E339" strokeWidth="6" fill="none" />
+          <circle cx="75" cy="75" r="50" stroke="#E3E339" strokeWidth="6" fill="none" />
         </svg>
       </div>
 
@@ -38,13 +38,13 @@ export default function ScheduleSection() {
           <div className="decoration starburst-right">
             <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
               {[...Array(16)].map((_, i) => (
-                <line 
+                <line
                   key={i}
-                  x1="60" 
-                  y1="60" 
-                  x2="60" 
-                  y2="10" 
-                  stroke="#FF6B35" 
+                  x1="60"
+                  y1="60"
+                  x2="60"
+                  y2="10"
+                  stroke="#FF6B35"
                   strokeWidth="3"
                   transform={`rotate(${i * 22.5} 60 60)`}
                 />
@@ -52,7 +52,7 @@ export default function ScheduleSection() {
             </svg>
           </div>
 
-          <motion.div 
+          <motion.div
             className="schedule-header"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -63,7 +63,7 @@ export default function ScheduleSection() {
             <p className="schedule-subtitle">Horários sujeitos a confirmação e ajustes conforme necessário</p>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             className="schedule-table"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -75,7 +75,7 @@ export default function ScheduleSection() {
               <div className="table-cell header-cell">Atividade</div>
             </div>
             {scheduleItems.map((item, index) => (
-              <motion.div 
+              <motion.div
                 key={index}
                 className="table-row"
                 initial={{ opacity: 0, x: -20 }}
@@ -91,14 +91,14 @@ export default function ScheduleSection() {
 
           <div className="decoration flower-left">
             <svg width="60" height="60" viewBox="0 0 60 60" fill="#FFFFFF">
-              <circle cx="30" cy="30" r="8"/>
+              <circle cx="30" cy="30" r="8" />
               {[...Array(6)].map((_, i) => (
-                <ellipse 
+                <ellipse
                   key={i}
-                  cx="30" 
-                  cy="15" 
-                  rx="6" 
-                  ry="12" 
+                  cx="30"
+                  cy="15"
+                  rx="6"
+                  ry="12"
                   transform={`rotate(${i * 60} 30 30)`}
                 />
               ))}
@@ -109,7 +109,7 @@ export default function ScheduleSection() {
         {/* ROUTE INFO SECTION */}
         <div className="route-container">
           <div className="route-content">
-            <motion.div 
+            <motion.div
               className="route-text"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -121,8 +121,8 @@ export default function ScheduleSection() {
               </h2>
 
               <p className="route-description">
-                O desfile percorre as principais ruas de Luanda, passando pela Cidadela, 
-                Musseque, Baixa e terminando na Baía de Luanda, onde a festa continua com 
+                O desfile percorre as principais ruas de Luanda, passando pela Cidadela,
+                Musseque, Baixa e terminando na Baía de Luanda, onde a festa continua com
                 energia redobrada.
               </p>
 
@@ -138,14 +138,14 @@ export default function ScheduleSection() {
               <div className="security-info">
                 <h4 className="security-title">Segurança:</h4>
                 <p className="security-text">
-                  O trajecto será completamente controlado e seguro, com policiamento 
-                  adequado e medidas de segurança em vigor. Famílias podem participar 
+                  O trajecto será completamente controlado e seguro, com policiamento
+                  adequado e medidas de segurança em vigor. Famílias podem participar
                   com confiança.
                 </p>
               </div>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               className="route-image-wrapper"
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -154,28 +154,28 @@ export default function ScheduleSection() {
             >
               <div className="decoration lightning-top">
                 <svg width="40" height="70" viewBox="0 0 40 70" fill="#E3E339">
-                  <path d="M20 0L10 40H25L15 70L35 25H20L30 0Z"/>
+                  <path d="M20 0L10 40H25L15 70L35 25H20L30 0Z" />
                 </svg>
               </div>
 
               <div className="image-frame">
-                <img 
-                  src={luandaBayImage} 
-                  alt="Baía de Luanda" 
-                  className="bay-image" 
+                <img
+                  src={luandaBayImage}
+                  alt="Baía de Luanda"
+                  className="bay-image"
                 />
               </div>
 
               <div className="decoration flower-bottom">
                 <svg width="60" height="60" viewBox="0 0 60 60" fill="#FFFFFF">
-                  <circle cx="30" cy="30" r="8"/>
+                  <circle cx="30" cy="30" r="8" />
                   {[...Array(6)].map((_, i) => (
-                    <ellipse 
+                    <ellipse
                       key={i}
-                      cx="30" 
-                      cy="15" 
-                      rx="6" 
-                      ry="12" 
+                      cx="30"
+                      cy="15"
+                      rx="6"
+                      ry="12"
                       transform={`rotate(${i * 60} 30 30)`}
                     />
                   ))}
@@ -421,7 +421,7 @@ export default function ScheduleSection() {
 
         .image-frame {
           padding: 10px;
-          background: linear-gradient(135deg, #E3E339 0%, #00CCD6 100%);
+          background: linear-gradient(135deg, #F3DA17 0%, #00CCD6 100%);
           border-radius: 8px;
           box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
         }

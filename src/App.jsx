@@ -19,11 +19,11 @@ function App() {
       <Hero />
       <AboutSection />
       <StatsSection />
-      <CarnivalGroupsSection />
       <ParticipationInfoSection />
       <EventScheduleSection />
       <SafetyTipsSection />
       <FAQSection />
+      <CarnivalGroupsSection />
       <PartnersSection />
       <FinalCTASection />
       <Footer />

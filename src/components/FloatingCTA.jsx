@@ -46,7 +46,7 @@ export default function FloatingCTA() {
               right: 40px;
               z-index: 1000;
               
-              background: linear-gradient(135deg, #E3E339 0%, #FFD700 100%);
+              background: linear-gradient(135deg, #F3DA17 0%, #F3DA17 100%);
               color: #0C132D;
               
               font-family: 'Impact', sans-serif;
@@ -64,9 +64,9 @@ export default function FloatingCTA() {
               
               cursor: pointer;
               
-              box-shadow: 0 8px 30px rgba(227, 227, 57, 0.6),
+              box-shadow: 0 8px 30px rgba(243, 218, 23, 0.6),
                           0 0 0 4px #0C132D,
-                          0 0 0 8px #E3E339;
+                          0 0 0 8px #F3DA17;
               
               transition: all 0.3s ease;
               
@@ -83,9 +83,9 @@ export default function FloatingCTA() {
             }
 
             .floating-btn:hover {
-              box-shadow: 0 12px 40px rgba(227, 227, 57, 0.8),
+              box-shadow: 0 12px 40px rgba(243, 218, 23, 0.8),
                           0 0 0 4px #0C132D,
-                          0 0 0 8px #FFD700;
+                          0 0 0 8px #F3DA17;
               animation: none;
             }
 

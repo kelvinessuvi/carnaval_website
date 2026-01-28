@@ -63,7 +63,7 @@ export default function Footer() {
 
         /* --- Top Section --- */
         .footer-top {
-          background-color: #E3E339;
+          background-color: #F3DA17;
           padding: 50px 0;
         }
 
@@ -140,7 +140,7 @@ export default function Footer() {
 
         .social-icon:hover {
           background-color: #1A1A1A;
-          color: #E3E339;
+          color: #F3DA17;
           transform: translateY(-3px);
         }
 

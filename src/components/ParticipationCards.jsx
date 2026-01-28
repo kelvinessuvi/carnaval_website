@@ -6,7 +6,7 @@ const cardsData = [
         id: 1,
         title: "1. Dançar no Desfile",
         subtitle: "Veterano, Recruta ou Batalhão de foliões",
-        description: "O seu lugar está garantido no asfalto com toda a energia e criatividade!",
+        description: "O teu lugar está garantido no asfalto com toda a energia e criatividade!",
         price: "A partir de 5.000 Kz",
         icon: <Music size={40} />
     },
@@ -22,7 +22,7 @@ const cardsData = [
         id: 3,
         title: "3. Assistir na Bancada",
         subtitle: "Vista privilegiada",
-        description: "Garanta o seu lugar na bancada para assistir ao desfile com todo o conforto e segurança.",
+        description: "Garanta o teu lugar na bancada para assistir ao desfile com todo o conforto e segurança.",
         price: "Acesso Livre",
         icon: <User size={40} />
     }

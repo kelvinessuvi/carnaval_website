@@ -62,7 +62,7 @@ export default function Hero() {
         <div className="header-right-area">
           {/* Top Right Button (Desktop) - First */}
           <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="header-cta desktop-only">
-            RESERVE JÁ O SEU KIT
+            RESERVE JÁ O TEU KIT
           </a>
 
           {/* Secondary Logo - Desktop: Always visible. Mobile: Right side, hidden when menu open */}
@@ -84,7 +84,7 @@ export default function Hero() {
             <a href="#participar" onClick={() => setMobileMenuOpen(false)}>COMO PARTICIPAR</a>
             <a href="#faq" onClick={() => setMobileMenuOpen(false)}>PERGUNTAS FREQUENTES</a>
             <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="mobile-cta" onClick={() => setMobileMenuOpen(false)}>
-              RESERVE JÁ O SEU KIT
+              RESERVE JÁ O TEU KIT
             </a>
             {/* Show secondary logo in mobile menu too? */}
             <img src={logoCanjala} alt="Canjala Logo" className="logo-partner-mobile" style={{ width: '100px', margin: '0 auto' }} />
@@ -107,7 +107,7 @@ export default function Hero() {
 
           {/* Center CTA - Positioned below text */}
           <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="cta-button-main">
-            GARANTA JÁ SEU PASSAPORTE <ArrowUpRight size={28} />
+            GARANTA JÁ TEU PASSAPORTE <ArrowUpRight size={28} />
           </a>
         </div>
 
@@ -240,7 +240,7 @@ export default function Hero() {
         }
         .header-cta {
           display: none;
-          background: #ECEC36;
+          background: #F3DA17;
           color: #0C132D;
           padding: 10px 24px;
           border-radius: 999px;
@@ -291,7 +291,7 @@ export default function Hero() {
         }
         .mobile-nav-links { display: flex; flex-direction: column; gap: 2rem; text-align: center; }
         .mobile-nav-links a { font-family: 'Impact'; font-size: 2rem; color: white; text-decoration: none; }
-        .mobile-cta { background: #ECEC36; color: #0C132D; padding: 1rem 2rem; font-family: 'Impact'; font-size: 1.5rem; border-radius: 999px; }
+        .mobile-cta { background: #F3DA17; color: #0C132D; padding: 1rem 2rem; font-family: 'Impact'; font-size: 1.5rem; border-radius: 999px; }
 
         /* --- HERO TEXT --- */
         .hero-content {
@@ -326,7 +326,7 @@ export default function Hero() {
         .main-title {
           font-family: 'Impact';
           font-size: clamp(3rem, 6vw, 5rem);
-          color: #ECEC36;
+          color: #F3DA17;
           transform: rotate(-2.55deg);
           margin-bottom: 2rem;
           line-height: 1.1;
@@ -344,7 +344,7 @@ export default function Hero() {
 
         .cta-button-main {
           display: flex; align-items: center; gap: 10px;
-          background: #ECEC36; color: #0C132D;
+          background: #F3DA17; color: #0C132D;
           font-family: 'Impact'; font-size: clamp(1.2rem, 2vw, 2rem);
           padding: 15px 40px; border-radius: 60px;
           border: 6px solid #F5F4E6;

@@ -35,7 +35,7 @@ export default function AboutSection() {
           </p>
         </div>
       </div>
-      
+
 
 
       <style jsx="true">{`
@@ -86,7 +86,7 @@ export default function AboutSection() {
 
         .about-main-title {
           font-family: 'Impact', sans-serif;
-          color: #E3E339;
+          color: #F3DA17;
           font-size: clamp(2.5rem, 5vw, 4rem);
           text-transform: uppercase;
           line-height: 1;
@@ -101,7 +101,7 @@ export default function AboutSection() {
           line-height: 1.6;
           color: #E0E0E0;
         }
-        .highlight-yellow { color: #E3E339; font-weight: bold; }
+        .highlight-yellow { color: #F3DA17; font-weight: bold; }
 
 
         /* --- 3. Dancers (Responsive) --- */

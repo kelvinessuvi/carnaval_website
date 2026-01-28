@@ -4,18 +4,16 @@ import luandaBay from '../assets/luanda_bay.png';
 
 export default function EventScheduleSection() {
   const scheduleItems = [
-    { time: "14h00", activity: "Concentração dos grupos e participantes" },
-    { time: "15h00", activity: "Início do desfile pelas ruas de Luanda" },
-    { time: "17h30", activity: "Chegada à Baía de Luanda" },
-    { time: "18h00", activity: "Continuação da festa na Baía" },
-    { time: "22h00", activity: "Encerramento" }
+    { time: "15h30", activity: "Concentração - Cidadela Desportiva de Luanda" },
+    { time: "17h00", activity: "Início do desfile pelas ruas de Luanda" },
+    { time: "19h00", activity: "Chegada ao Porto de Luanda" },
+    { time: "19:30 em diante", activity: "Continuação da Festa até altas horas" }
   ];
 
   const referencePoints = [
-    "Saída: [Local da Concentração]",
+    "Concentração: Cidadela de Luanda",
     "Trajecto Principal: Ruas centrais de Luanda",
-    "Chegada: Baía de Luanda",
-    "Continuação: Festa na Baía até ao encerramento"
+    "Local da Festa: Porto de Luanda"
   ];
 
   return (
@@ -91,38 +89,6 @@ export default function EventScheduleSection() {
       </div>
 
       <div className="container">
-
-        {/* SCHEDULE TABLE - CENTERED AT TOP */}
-        <motion.div
-          className="schedule-block"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <h2 className="schedule-title">CRONOGRAMA DO EVENTO</h2>
-          <h3 className="schedule-date">7 DE FEVEREIRO</h3>
-          <p className="schedule-note">
-            Horários sujeitos a confirmação e ajustes<br />conforme necessário
-          </p>
-
-          <div className="schedule-table">
-            <div className="table-header">
-              <div className="header-cell">Hora</div>
-              <div className="header-cell">Atividade</div>
-            </div>
-            {scheduleItems.map((item, index) => (
-              <div
-                key={index}
-                className="table-row"
-              >
-                <div className="cell time-cell">{item.time}</div>
-                <div className="cell activity-cell">{item.activity}</div>
-              </div>
-            ))}
-          </div>
-        </motion.div>
-
-        {/* ROUTE INFO + IMAGE - SIDE BY SIDE BELOW */}
         <div className="route-block">
 
           {/* Text Content - LEFT SIDE */}
@@ -172,6 +138,39 @@ export default function EventScheduleSection() {
           </motion.div>
 
         </div>
+        <br></br><br></br>
+        {/* SCHEDULE TABLE - CENTERED AT TOP */}
+        <motion.div
+          className="schedule-block"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="schedule-title">CRONOGRAMA DO EVENTO</h2>
+          <h3 className="schedule-date">7 DE FEVEREIRO</h3>
+          <p className="schedule-note">
+            Horários sujeitos a confirmação e ajustes<br />conforme necessário
+          </p>
+
+          <div className="schedule-table">
+            <div className="table-header">
+              <div className="header-cell">Hora</div>
+              <div className="header-cell">Atividade</div>
+            </div>
+            {scheduleItems.map((item, index) => (
+              <div
+                key={index}
+                className="table-row"
+              >
+                <div className="cell time-cell">{item.time}</div>
+                <div className="cell activity-cell">{item.activity}</div>
+              </div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* ROUTE INFO + IMAGE - SIDE BY SIDE BELOW */}
+
 
       </div>
 
@@ -204,7 +203,7 @@ export default function EventScheduleSection() {
         }
 
         .flower-left {
-          left: 110px;
+          left: 20px;
           top: 320px;
         }
 
