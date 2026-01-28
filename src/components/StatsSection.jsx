@@ -32,7 +32,7 @@ export default function StatsSection() {
     },
     {
       label: "TRAJECTO",
-      text: "RUAS DE LUANDA ATÉ À BAÍA DE LUANDA",
+      text: "RUAS DE LUANDA ATÉ AO PORTO DE LUANDA",
       colorClass: "border-pink-500 text-pink-500",
       borderColor: "#D90429"
     },

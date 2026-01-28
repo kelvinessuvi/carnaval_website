@@ -10,16 +10,16 @@ export default function ScheduleSection() {
   const scheduleItems = [
     { time: '14h00', activity: 'Concentração dos grupos e participantes' },
     { time: '15h00', activity: 'Início do desfile pelas ruas de Luanda' },
-    { time: '17h30', activity: 'Chegada à Baía de Luanda' },
-    { time: '18h00', activity: 'Continuação da festa na Baía' },
+    { time: '17h30', activity: 'Chegada ao Porto de Luanda' },
+    { time: '18h00', activity: 'Continuação da festa no Porto de Luanda' },
     { time: '22h00', activity: 'Encerramento' }
   ];
 
   const routePoints = [
     'Saída: [Local da Concentração]',
     'Trajecto Principal: Ruas centrais de Luanda',
-    'Chegada: Baía de Luanda',
-    'Continuação: Festa na Baía até ao encerramento'
+    'Chegada: Porto de Luanda',
+    'Continuação: Festa no Porto de Luanda até ao encerramento'
   ];
 
   return (
@@ -122,7 +122,7 @@ export default function ScheduleSection() {
 
               <p className="route-description">
                 O desfile percorre as principais ruas de Luanda, passando pela Cidadela,
-                Musseque, Baixa e terminando na Baía de Luanda, onde a festa continua com
+                Musseque, Baixa e terminando no Porto de Luanda, onde a festa continua com
                 energia redobrada.
               </p>
 
@@ -161,7 +161,7 @@ export default function ScheduleSection() {
               <div className="image-frame">
                 <img
                   src={luandaBayImage}
-                  alt="Baía de Luanda"
+                  alt="Porto de Luanda"
                   className="bay-image"
                 />
               </div>

@@ -4,8 +4,8 @@ import SectionDivider from './ui/SectionDivider';
 const scheduleItems = [
   { time: "14:00", activity: "Concentração dos grupos e participantes" },
   { time: "16:00", activity: "Início do desfile pelas ruas de Luanda" },
-  { time: "18:30", activity: "Chegada à Baía de Luanda" },
-  { time: "20:00", activity: "Continuação da festa na Baía" },
+  { time: "18:30", activity: "Chegada à Porto de luanda" },
+  { time: "20:00", activity: "Continuação da festa no Porto de Luanda" },
   { time: "22:00", activity: "Encerramento" }
 ];
 

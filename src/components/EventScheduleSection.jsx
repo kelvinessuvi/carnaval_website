@@ -105,7 +105,7 @@ export default function EventScheduleSection() {
 
             <p className="route-description">
               O desfile percorre as principais ruas de Luanda, passando pela Cidadela,
-              Musseque, Baixa e terminando na Baía de Luanda, onde a festa continua com
+              Musseque, Baixa e terminando no Porto de Luanda, onde a festa continua com
               energia redobrada.
             </p>
 
@@ -133,7 +133,7 @@ export default function EventScheduleSection() {
             viewport={{ once: true }}
           >
             <div className="image-frame">
-              <img src={luandaBay} alt="Baía de Luanda" className="bay-image" />
+              <img src={luandaBay} alt="Porto de Luanda" className="bay-image" />
             </div>
           </motion.div>
 

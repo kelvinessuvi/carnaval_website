@@ -41,7 +41,7 @@ export default function FinalCTASection() {
           </h2>
 
           <p className="description">
-            O Carnaval não é apenas uma festa - é a nossa identidade. É a nossa alegria. É o momento em que Angolanos de todas as partes - da Cidadela à Baía, do Musseque à Baixa - se unem para celebrar quem somos.
+            O Carnaval não é apenas uma festa - é a nossa identidade. É a nossa alegria. É o momento em que Angolanos de todas as partes - da Cidadela ao Porto de Luanda, do Musseque à Baixa - se unem para celebrar quem somos.
           </p>
 
           <p className="cta-text">

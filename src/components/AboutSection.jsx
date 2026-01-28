@@ -24,7 +24,7 @@ export default function AboutSection() {
 
         <div className="about-body-text">
           <p>
-            Este é mais do que um desfile. É um movimento. Uma celebração que une a Cidadela à Baía de
+            Este é mais do que um desfile. É um movimento. Uma celebração que une a Cidadela ao Porto de
             Luanda, do Musseque à Baixa, em família e com amor. Reunimos as pessoas para festejar sem
             medo, com alegria genuína e a força da nossa tradição.
           </p>
