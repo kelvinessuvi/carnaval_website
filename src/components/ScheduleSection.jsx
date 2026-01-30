@@ -44,7 +44,7 @@ export default function ScheduleSection() {
                   y1="60"
                   x2="60"
                   y2="10"
-                  stroke="#FF6B35"
+                  stroke="rgba(253, 76, 27, 1)"
                   strokeWidth="3"
                   transform={`rotate(${i * 22.5} 60 60)`}
                 />
@@ -261,7 +261,7 @@ export default function ScheduleSection() {
         .schedule-date {
           font-family: 'Impact', sans-serif;
           font-size: clamp(2rem, 4vw, 3rem);
-          color: #FF6B35;
+          color: rgba(253, 76, 27, 1);
           text-transform: uppercase;
           margin-bottom: 1rem;
           line-height: 1;

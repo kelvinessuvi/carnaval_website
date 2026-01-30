@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight, Menu, X, Play } from 'lucide-react';
 
 // Assets
-import heroBg from '../assets/BG3 1.png';
+import heroBg from '../assets/bg-carnavalderua.png';
 // Use the group photo or a frame placeholder. 
 // Based on file names, 'Group 1707478146.png' is the frame, 
 // but user wants a video. 
@@ -62,7 +62,7 @@ export default function Hero() {
         <div className="header-right-area">
           {/* Top Right Button (Desktop) - First */}
           <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="header-cta desktop-only">
-            RESERVE JÁ O TEU KIT
+            RESERVA JÁ O TEU KIT
           </a>
 
           {/* Secondary Logo - Desktop: Always visible. Mobile: Right side, hidden when menu open */}
@@ -84,7 +84,7 @@ export default function Hero() {
             <a href="#participar" onClick={() => setMobileMenuOpen(false)}>COMO PARTICIPAR</a>
             <a href="#faq" onClick={() => setMobileMenuOpen(false)}>PERGUNTAS FREQUENTES</a>
             <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="mobile-cta" onClick={() => setMobileMenuOpen(false)}>
-              RESERVE JÁ O TEU KIT
+              RESERVA JÁ O TEU KIT
             </a>
             {/* Show secondary logo in mobile menu too? */}
             <img src={logoCanjala} alt="Canjala Logo" className="logo-partner-mobile" style={{ width: '100px', margin: '0 auto' }} />
@@ -107,7 +107,7 @@ export default function Hero() {
 
           {/* Center CTA - Positioned below text */}
           <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="cta-button-main">
-            GARANTA JÁ TEU PASSAPORTE <ArrowUpRight size={28} />
+            GARANTE JÁ O TEU PASSAPORTE <ArrowUpRight size={28} />
           </a>
         </div>
 

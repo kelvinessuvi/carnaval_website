@@ -20,7 +20,7 @@ export default function ParticipationSection() {
               y1="60"
               x2="60"
               y2="10"
-              stroke="#FF6B35"
+              stroke="rgba(253, 76, 27, 1)"
               strokeWidth="3"
               transform={`rotate(${i * 22.5} 60 60)`}
             />
@@ -66,8 +66,8 @@ export default function ParticipationSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="main-title">JUNTE-SE À FESTA!</h2>
-          <h3 className="sub-title">SAIBA COMO PARTICIPAR</h3>
+          <h2 className="main-title">JUNTA-TE À FESTA!</h2>
+          <h3 className="sub-title">DESCOBRE COMO PARTICIPAR</h3>
           <p className="section-subtitle">Opções de Participação</p>
         </motion.div>
 
@@ -100,7 +100,7 @@ export default function ParticipationSection() {
             <p className="card-subtitle">VIA WHATSAPP:</p>
             <p className="phone-numbers">
               <Phone size={16} style={{ display: 'inline', marginRight: '5px' }} />
-              +244 94 622 006 • +244 912 662 767
+              +244 941 622 006 • +244 912 662 767
             </p>
             <p className="card-description">
               Ligue, confirme a sua participação, escolha o tipo de kit e receba as instruções de pagamento.
@@ -148,7 +148,7 @@ export default function ParticipationSection() {
           transition={{ delay: 0.6 }}
         >
           <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="cta-button">
-            RESERVE JÁ O TEU KIT
+            RESERVA JÁ O TEU KIT
             <ArrowRight size={24} className="arrow-icon" />
           </a>
         </motion.div>
@@ -216,7 +216,7 @@ export default function ParticipationSection() {
         .sub-title {
           font-family: 'Impact', sans-serif;
           font-size: clamp(2rem, 4vw, 3.5rem);
-          color: #FF6B35;
+          color: rgba(253, 76, 27, 1);
           text-transform: uppercase;
           margin-bottom: 1rem;
           line-height: 1;

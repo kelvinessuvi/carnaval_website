@@ -144,7 +144,7 @@ export default function CarnivalGroupsSection() {
         .group-title {
           font-family: 'Impact', sans-serif;
           font-size: clamp(2rem, 4vw, 3.5rem);
-          color: #FF6B35; /* Orange title color from design */
+          color: rgba(253, 76, 27, 1); /* Orange title color from design */
           text-transform: uppercase;
           line-height: 1.1;
           margin-bottom: 1.5rem;
@@ -192,7 +192,7 @@ export default function CarnivalGroupsSection() {
           content: '•';
           position: absolute;
           left: 0;
-          color: #FF6B35;
+          color: rgba(253, 76, 27, 1);
           font-weight: bold;
           font-size: 1.2rem;
         }

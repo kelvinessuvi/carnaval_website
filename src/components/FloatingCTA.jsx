@@ -36,7 +36,7 @@ export default function FloatingCTA() {
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.95 }}
         >
-          <span className="btn-text">RESERVE JÁ</span>
+          <span className="btn-text">RESERVA JÁ</span>
           <ArrowRight size={20} className="btn-icon" />
 
           <style jsx="true">{`

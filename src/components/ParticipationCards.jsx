@@ -14,7 +14,7 @@ const cardsData = [
         id: 2,
         title: "2. Participar em Grupo",
         subtitle: "Organize um grupo de amigos",
-        description: "Família ou comunidade e reserve os vossos kits. Dancem juntos, celebrem juntos!",
+        description: "Família ou comunidade e reserva os vossos kits. Dancem juntos, celebrem juntos!",
         price: "Descontos especiais para grupos",
         icon: <Users size={40} />
     },

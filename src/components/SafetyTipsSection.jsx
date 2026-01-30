@@ -13,7 +13,7 @@ export default function SafetyTipsSection() {
       {/* Decorative Elements */}
       <div className="decoration circle-top-right">
         <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
-          <circle cx="40" cy="40" r="35" stroke="#FF6B35" strokeWidth="4" fill="none" />
+          <circle cx="40" cy="40" r="35" stroke="rgba(253, 76, 27, 1)" strokeWidth="4" fill="none" />
         </svg>
       </div>
 
@@ -26,7 +26,7 @@ export default function SafetyTipsSection() {
               y1="40"
               x2="40"
               y2="8"
-              stroke="#FF6B35"
+              stroke="rgba(253, 76, 27, 1)"
               strokeWidth="2.5"
               transform={`rotate(${i * 30} 40 40)`}
             />
@@ -49,7 +49,7 @@ export default function SafetyTipsSection() {
               y1="45"
               x2="45"
               y2="8"
-              stroke="#FF6B35"
+              stroke="rgba(253, 76, 27, 1)"
               strokeWidth="2.5"
               transform={`rotate(${i * 30} 45 45)`}
             />
@@ -59,7 +59,7 @@ export default function SafetyTipsSection() {
 
       <div className="decoration circle-bottom-right">
         <svg width="70" height="70" viewBox="0 0 70 70" fill="none">
-          <circle cx="35" cy="35" r="30" stroke="#FF6B35" strokeWidth="3.5" fill="none" />
+          <circle cx="35" cy="35" r="30" stroke="rgba(253, 76, 27, 1)" strokeWidth="3.5" fill="none" />
         </svg>
       </div>
 
@@ -72,7 +72,7 @@ export default function SafetyTipsSection() {
               y1="37"
               x2="37"
               y2="7"
-              stroke="#FF6B35"
+              stroke="rgba(253, 76, 27, 1)"
               strokeWidth="2.5"
               transform={`rotate(${i * 30} 37 37)`}
             />
@@ -122,11 +122,11 @@ export default function SafetyTipsSection() {
           <div className="text-content">
             <h2 className="section-title title-blue">DICAS PRÁTICAS</h2>
             <ul className="info-list">
-              <li>Vestuário: Use roupas confortáveis e cores vibrantes</li>
-              <li>Calçado: Sapatos confortáveis para caminhar</li>
+              <li>Vestuário: Usa roupas confortáveis e cores vibrantes</li>
+              <li>Calçado: Escolhe sapatos confortáveis para caminhar</li>
               <li>Hidratação: Traga água e mantenha-se hidratado</li>
-              <li>Proteção Solar: Protetor solar e chapéu são recomendados</li>
-              <li>Documentação: Leve o teu comprovativo de reserva/kit</li>
+              <li>⁠⁠Protecção Solar: Uso de Protector Solar e Chapéu são recomendados</li>
+              <li>Documentação: Leva o teu comprovativo de reserva/kit</li>
             </ul>
           </div>
 
@@ -136,7 +136,7 @@ export default function SafetyTipsSection() {
             </div>
             <div className="circle-decoration">
               <svg width="65" height="65" viewBox="0 0 65 65" fill="none">
-                <circle cx="32" cy="32" r="28" stroke="#FF6B35" strokeWidth="3.5" fill="none" />
+                <circle cx="32" cy="32" r="28" stroke="rgba(253, 76, 27, 1)" strokeWidth="3.5" fill="none" />
               </svg>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function SafetyTipsSection() {
             </div>
             <div className="circle-decoration-bottom">
               <svg width="70" height="70" viewBox="0 0 70 70" fill="none">
-                <circle cx="35" cy="35" r="30" stroke="#FF6B35" strokeWidth="3.5" fill="none" />
+                <circle cx="35" cy="35" r="30" stroke="rgba(253, 76, 27, 1)" strokeWidth="3.5" fill="none" />
               </svg>
             </div>
           </div>
@@ -177,7 +177,7 @@ export default function SafetyTipsSection() {
 
       <style jsx="true">{`
         .safety-tips-section {
-          background-color: #F5F1E8;
+          background-color: rgba(245, 244, 230, 1);
           padding: 60px 0;
           position: relative;
           overflow: hidden;
@@ -327,15 +327,21 @@ export default function SafetyTipsSection() {
         }
 
         .title-orange {
-          color: #FF6B35;
+          color: rgba(253, 76, 27, 1) !important;
         }
 
         .title-blue {
-          color: #0077CC;
+          color: #0077CC !important;
         }
 
         .title-black {
-          color: #1A1A1A;
+          color: #1A1A1A !important;
+
+          font-family: 'Impact', sans-serif;
+          font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+          text-transform: uppercase;
+          margin-bottom: 0.8rem;
+          line-height: 1;
         }
 
         .info-list {

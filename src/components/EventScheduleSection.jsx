@@ -4,10 +4,10 @@ import luandaBay from '../assets/luanda_bay.png';
 
 export default function EventScheduleSection() {
   const scheduleItems = [
-    { time: "15h30", activity: "Concentração - Cidadela Desportiva de Luanda" },
+    { time: "15h30", activity: "Concentração: Cidadela Desportiva de Luanda" },
     { time: "17h00", activity: "Início do desfile pelas ruas de Luanda" },
     { time: "19h00", activity: "Chegada ao Porto de Luanda" },
-    { time: "19:30 em diante", activity: "Continuação da Festa até altas horas" }
+    { time: "19:30", activity: "Continuação da Festa até altas horas" }
   ];
 
   const referencePoints = [
@@ -52,7 +52,7 @@ export default function EventScheduleSection() {
               y1="45"
               x2="45"
               y2="8"
-              stroke="#FF6B35"
+              stroke="rgba(253, 76, 27, 1)"
               strokeWidth="2.5"
               transform={`rotate(${i * 22.5} 45 45)`}
             />
@@ -148,14 +148,12 @@ export default function EventScheduleSection() {
         >
           <h2 className="schedule-title">CRONOGRAMA DO EVENTO</h2>
           <h3 className="schedule-date">7 DE FEVEREIRO</h3>
-          <p className="schedule-note">
-            Horários sujeitos a confirmação e ajustes<br />conforme necessário
-          </p>
+          
 
           <div className="schedule-table">
             <div className="table-header">
               <div className="header-cell">Hora</div>
-              <div className="header-cell">Atividade</div>
+              <div className="header-cell">Actividade</div>
             </div>
             {scheduleItems.map((item, index) => (
               <div
@@ -166,7 +164,11 @@ export default function EventScheduleSection() {
                 <div className="cell activity-cell">{item.activity}</div>
               </div>
             ))}
-          </div>
+            
+          </div><br/>
+          <p className="schedule-note">
+            Horários sujeitos à alteração e ajustes conforme necessário
+          </p>
         </motion.div>
 
         {/* ROUTE INFO + IMAGE - SIDE BY SIDE BELOW */}
@@ -245,7 +247,7 @@ export default function EventScheduleSection() {
         .schedule-date {
           font-family: 'Impact', sans-serif;
           font-size: clamp(1.6rem, 3.5vw, 2.5rem);
-          color: #FF6B35;
+          color: rgba(253, 76, 27, 1);
           text-transform: uppercase;
           margin-bottom: 0.8rem;
           letter-spacing: 0.5px;

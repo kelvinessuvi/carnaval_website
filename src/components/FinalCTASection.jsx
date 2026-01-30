@@ -65,21 +65,21 @@ export default function FinalCTASection() {
             transition={{ delay: 0.2 }}
           >
             <Phone size={48} className="card-icon" />
-            <h3 className="card-title">RESERVE AGORA VIA INFOLINE</h3>
+            <h3 className="card-title">RESERVA AGORA</h3>
             <p className="card-phone">+244 941 622 000</p>
           </motion.div>
 
           {/* UZEKA Card */}
           <motion.div
             className="action-card card-purple"
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
           >
             <img src={uzekaLogo} alt="UZEKA" className="uzeka-logo" />
-            <p className="card-subtitle">RESERVE NA UZEKA</p>
-            <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="uzeka-button">RESERVE JÁ O TEU TICKET</a>
+            <p className="card-subtitle">RESERVA NA UZEKA</p>
+            <a href="https://web.uzeka.app/events/818" target="_blank" rel="noopener noreferrer" className="uzeka-button">RESERVA JÁ O TEU TICKET</a>
           </motion.div>
 
           {/* Social Media Card */}
@@ -90,7 +90,7 @@ export default function FinalCTASection() {
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
           >
-            <h3 className="card-title-black">SIGA-NOS NAS REDES SOCIAIS</h3>
+            <h3 className="card-title-black">SEGUE-NOS NAS REDES SOCIAIS</h3>
             <div className="social-icons">
               <a href="#" className="social-icon"><Facebook size={28} /></a>
               <a href="#" className="social-icon"><Instagram size={28} /></a>
@@ -175,7 +175,7 @@ export default function FinalCTASection() {
         }
 
         .title-orange {
-          color: #FF6B35;
+          color: rgba(253, 76, 27, 1);
         }
 
         .description,
@@ -183,7 +183,7 @@ export default function FinalCTASection() {
           font-family: 'Azo Sans', sans-serif;
           font-size: 1.05rem;
           line-height: 1.7;
-          color: #00CCD6;
+          color: #FFF;
           max-width: 900px;
           margin: 0 auto 1.5rem auto;
         }
@@ -192,7 +192,7 @@ export default function FinalCTASection() {
           font-family: 'Azo Sans', sans-serif;
           font-size: 1.1rem;
           font-weight: bold;
-          color: #00CCD6;
+          color: #FFF;
           margin-top: 2rem;
         }
 
@@ -222,12 +222,12 @@ export default function FinalCTASection() {
         }
 
         .card-orange {
-          background-color: #FF6B35;
+          background-color: rgba(253, 76, 27, 1);
           color: #FFFFFF;
         }
 
         .card-purple {
-          background: linear-gradient(135deg, #A855F7 0%, #9333EA 100%);
+          background: rgba(144, 40, 132, 1);
           color: #FFFFFF;
         }
 

@@ -12,11 +12,11 @@ export default function FAQSection() {
     },
     {
       question: "Quanto custa participar?",
-      answer: "Os preços dos kits variam conforme o tipo de participação (individual, grupo, etc.). Contacte a infoline para detalhes específicos de preços."
+      answer: "Os preços dos kits variam conforme o tipo de participação (individual, grupo, etc.). Contacta a infoline para detalhes específicos de preços."
     },
     {
       question: "Como faço a reserva?",
-      answer: "Pode fazer a reserva através do WhatsApp (+244 94 622 006 ou +244 912 662 767) ou pela plataforma UZEKA de ticketing online."
+      answer: "Podes fazer a reserva através do WhatsApp (+244 941 622 006 ou +244 912 662 767) ou pela plataforma UZEKA de ticketing online."
     },
     {
       question: "Posso trazer a minha família?",
@@ -48,7 +48,7 @@ export default function FAQSection() {
     },
     {
       question: "Há reembolso se não puder participar?",
-      answer: "As políticas de reembolso variam. Por favor, consulte os termos e condições no momento da reserva."
+      answer: "As políticas de reembolso variam. Por favor, consulta os termos e condições no momento da reserva."
     }
   ];
 
@@ -62,14 +62,14 @@ export default function FAQSection() {
       {/* Decorative Elements */}
       <div className="decoration circle-icon-left">
         <svg width="90" height="90" viewBox="0 0 90 90" fill="none">
-          <circle cx="45" cy="45" r="40" fill="#FF6B35" stroke="#FF6B35" strokeWidth="2" />
+          <circle cx="45" cy="45" r="40" fill="rgba(253, 76, 27, 1)" stroke="rgba(253, 76, 27, 1)" strokeWidth="2" />
           <path d="M45 20L35 50H50L40 80L60 45H45L55 20Z" fill="#F3DA17" />
         </svg>
       </div>
 
       <div className="decoration circle-icon-right">
         <svg width="90" height="90" viewBox="0 0 90 90" fill="none">
-          <circle cx="45" cy="45" r="40" fill="#FF6B35" stroke="#FF6B35" strokeWidth="2" />
+          <circle cx="45" cy="45" r="40" fill="rgba(253, 76, 27, 1)" stroke="rgba(253, 76, 27, 1)" strokeWidth="2" />
           <path d="M45 20L35 50H50L40 80L60 45H45L55 20Z" fill="#F3DA17" />
         </svg>
       </div>
@@ -83,7 +83,7 @@ export default function FAQSection() {
               y1="42"
               x2="42"
               y2="8"
-              stroke="#FF6B35"
+              stroke="rgba(253, 76, 27, 1)"
               strokeWidth="2.5"
               transform={`rotate(${i * 30} 42 42)`}
             />
@@ -112,7 +112,7 @@ export default function FAQSection() {
               y1="47"
               x2="47"
               y2="10"
-              stroke="#FF6B35"
+              stroke="rgba(253, 76, 27, 1)"
               strokeWidth="3"
               transform={`rotate(${i * 30} 47 47)`}
             />

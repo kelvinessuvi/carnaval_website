@@ -19,7 +19,7 @@ export default function PartnersSection() {
               y1="50"
               x2="50"
               y2="10"
-              stroke="#FF6B35"
+              stroke="rgba(253, 76, 27, 1)"
               strokeWidth="3"
               transform={`rotate(${i * 30} 50 50)`}
             />

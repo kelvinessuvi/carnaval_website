@@ -24,14 +24,10 @@ export default function AboutSection() {
 
         <div className="about-body-text">
           <p>
-            Este é mais do que um desfile. É um movimento. Uma celebração que une a Cidadela ao Porto de
-            Luanda, do Musseque à Baixa, em família e com amor. Reunimos as pessoas para festejar sem
-            medo, com alegria genuína e a força da nossa tradição.
-          </p>
-          <p>
-            O <span className="highlight-yellow">Carnaval do Show do Mês</span> é um evento anual organizado uma semana antes da semana oficial do
-            Carnaval, trazendo à rua os maiores grupos da nossa tradição carnavalesca. Showistas, Veteranos,
-            Recrutas e Batalhões - todos juntos numa festa única que celebra a identidade angolana.
+            Este é mais do que um desfile, é um movimento. Uma celebração que une a Cidadela ao Porto de Luanda, do Musseque à Baixa, em família e com amor. <br/>
+Reunimos as pessoas para festejar sem medo, com alegria genuína e a força da nossa tradição.<br/>
+<span className="highlight-yellow"> O Carnaval do Show do Mês</span> é um evento anual organizado uma semana antes da semana oficial do Carnaval, trazendo à rua os maiores grupos da nossa tradição carnavalesca. 
+Showistas, Veteranos, Recrutas e Batalhões - todos juntos numa festa única que celebra a identidade angolana.
           </p>
         </div>
       </div>
