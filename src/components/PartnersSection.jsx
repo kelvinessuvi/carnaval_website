@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import logoNew from '../assets/logo-new-1.png';
 import logoPura from '../assets/Pura+logo+pdf-01.webp';
 import logoSuperBock from '../assets/Super_Bock_Logo.png';
+import logoArena from '../assets/Grupo Arena_Logo_page-0001.jpg';
 
 export default function PartnersSection() {
 
@@ -47,6 +48,9 @@ export default function PartnersSection() {
             </div>
             <div className="partner-logo">
               <img src={logoSuperBock} alt="Super Bock" style={{ maxWidth: '100%', maxHeight: '100%' }} />
+            </div>
+            <div className="partner-logo">
+              <img src={logoArena} alt="Grupo Arena" style={{ maxWidth: '100%', maxHeight: '100%' }} />
             </div>
           </div>
 
